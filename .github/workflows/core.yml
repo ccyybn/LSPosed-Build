@@ -43,12 +43,14 @@ jobs:
       - name: Checkout libxposed/api
         uses: actions/checkout@v3
         with:
+          ref: a42f85d06eac3373d266a534ab3b31a584b30774
           repository: libxposed/api
           path: libxposed/api
 
       - name: Checkout libxposed/service
         uses: actions/checkout@v3
         with:
+          ref: 4351a735755c86c031a977a62e52005b23048c4d
           repository: libxposed/service
           path: libxposed/service
 
